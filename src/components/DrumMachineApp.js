@@ -1,6 +1,7 @@
 import React from 'react';
 import { data } from './data/data';
 import DrumPad from './DrumPad';
+import Display from './Display';
 import './DrumMachineApp.css';
 
 
@@ -18,9 +19,8 @@ class DrumMachineApp extends React.Component{
     return (
       <div id="drum-machine">
         <div className="title">DRUM MACHINE</div>
-        <div className="header">
-          <div id="display">{this.state.display}</div>
-        </div>  
+        <Display 
+          soundName={this.state.display}/>
         <div id="pad-wrapper">
           {data.map(d => (
             <DrumPad 
@@ -30,7 +30,7 @@ class DrumMachineApp extends React.Component{
               color={d.color}
               handleDisplay={this.handleDisplay}
             />
-           ))}
+          ))}
         </div>
       </div>
     );

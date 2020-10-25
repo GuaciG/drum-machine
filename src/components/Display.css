@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#display {
+    flex: 1 1 auto;
+    background: #f1f1f1;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: .15rem;
+    font-family: 'VT323', monospace;
+    font-size: 2rem;
+    text-align: center;
+    box-shadow: 2px 2px 9px #000000;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.2), rgba(90, 34, 101, 0.4));
+}

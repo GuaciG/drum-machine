@@ -28,12 +28,10 @@ class DrumPad extends React.Component {
     
     render(){
       return(
-        <div 
-            className="drum-pad" 
+        <div className="drum-pad" 
             id={this.props.id} 
             onClick={this.handleClick}
-            style={{backgroundColor:this.props.color}}
-            >
+            style={{backgroundColor:this.props.color}}>
             {this.props.letter}
             <audio
               ref={ref => this.audio = ref}
