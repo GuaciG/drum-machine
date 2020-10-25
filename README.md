@@ -24,7 +24,7 @@ This project was built as a challenge on freecodecamp course. It was part of Fro
 
 
 
-You can take a look at this project in [github]()
+You can take a look at this project in [github](https://guacig.github.io/drum-machine/)
 
 Also you can find the working demo in [codepen](https://codepen.io/GuaciG/full/wvavxzo)
 
