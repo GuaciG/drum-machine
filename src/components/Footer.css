@@ -1,0 +1,15 @@
+footer {
+    font-family: 'Righteous', cursive;
+    font-size: 13px;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ffbd33;
+}
+  

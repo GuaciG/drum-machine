@@ -2,7 +2,7 @@
 
 This project was built as a challenge on freecodecamp course. It was part of Front End Libraries Certification in FreeCodeCamp.
 
-![Drum Machine](https://res.cloudinary.com/drpcjt13x/image/upload/v1603629493/Proyectos/Drum%20Machine/Drum_Machine_o6svkw.png "Drum Machine")
+![Drum Machine](https://res.cloudinary.com/drpcjt13x/image/upload/v1603988152/Proyectos/Drum%20Machine/Desktop-Drum_Machine_lnmkwt.png "Drum Machine")
 
 
 ## User story

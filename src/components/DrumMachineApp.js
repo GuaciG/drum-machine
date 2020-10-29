@@ -2,6 +2,7 @@ import React from 'react';
 import { data } from './data/data';
 import DrumPad from './DrumPad';
 import Display from './Display';
+import Footer from './Footer';
 import './DrumMachineApp.css';
 
 
@@ -17,7 +18,8 @@ class DrumMachineApp extends React.Component{
   
   render() {
     return (
-      <div id="drum-machine">
+      <div>
+        <div id="drum-machine">
         <div className="title">DRUM MACHINE</div>
         <Display 
           soundName={this.state.display}/>
@@ -32,6 +34,8 @@ class DrumMachineApp extends React.Component{
             />
           ))}
         </div>
+      </div>
+      <Footer />
       </div>
     );
   }
